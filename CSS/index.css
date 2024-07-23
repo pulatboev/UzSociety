@@ -1,0 +1,282 @@
+.top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+.left a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left header{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(12, 105, 97);
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right ul{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.account p{
+  font-weight: 500;
+  font-size: 18px;
+}
+.like{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.message p{
+  margin-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: rgb(226,81,91);
+  border-color: rgb(226,81,91);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s,    color 0.3s;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -webkit-transition: background-color 0.3s,    color 0.3s;
+  -moz-transition: background-color 0.3s,    color 0.3s;
+  -ms-transition: background-color 0.3s,    color 0.3s;
+  -o-transition: background-color 0.3s,    color 0.3s;
+}
+.btn:hover {
+  color: #07a094;
+  background-color: rgb(223, 255, 253);
+  border-color: rgb(7, 160,148);
+}
+.btn:active {
+  opacity: 0.7;
+}
+
+
+
+
+.search{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.qidiruv {
+  width: 100%;
+  display: table;
+}
+
+
+.qidiruv i{
+  position: absolute;
+}
+
+.search-icon {
+  padding: 14px;
+  min-width: 40px;
+
+}
+.location-icon{
+  padding: 14px;
+  min-width: 40px;
+
+}
+
+.input-field {
+
+  box-sizing: border-box;
+  border: 2px solid rgb(7, 160,148);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+}
+
+.qidiruv-input{
+  border-right: none;
+  width: 65%;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.location-input{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: none;
+  width: 20%;
+}
+
+
+.qidiruv-btn{
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  box-sizing: border-box;
+  background-color: rgb(7, 160,148);
+  padding: 12px 20px;
+  border: 2px solid rgb(7, 160, 148);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 15%;
+  text-align: center;
+  transition: background-color 0.3s,    color 0.3s;
+}
+.qidiruv-btn:hover{
+  background-color: rgb(223, 255, 253);
+  color: #07a094;
+}
+.qidiruv-btn i {
+  margin-left: 8px;
+  position: static;
+}
+
+
+
+
+
+
+.category{
+  background-color: white;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.category-section{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.categories{
+  cursor: pointer;
+}
+.categories div{
+  background-color: aliceblue;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.categories img{
+  height: 100px;
+  object-fit: contain;
+}
+.categories p{
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+  margin-top: 100px;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.footer li{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logoDown {
+  height: 70px;
+  object-fit: contain;
+}
+.sMediaLogo {
+  width: 30px;
+}
+.navListBottom, .navABottom {
+  font-weight: 500;
+  font-size: 14px;
+  color: #07a094;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
